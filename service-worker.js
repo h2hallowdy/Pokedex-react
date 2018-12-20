@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pokedex-react/precache-manifest.a46c992e3ef71ed60f95ce94d4ebc836.js"
+  "/Pokedex-react/precache-manifest.75f8d1f3bfe3fcce7cf40dafa19b3426.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pokedex-react/index.html", {
+workbox.routing.registerNavigationRoute("/Pokedex-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
